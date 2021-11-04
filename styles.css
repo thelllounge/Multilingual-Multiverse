@@ -1,0 +1,257 @@
+/*fonts*/
+h1 {
+    font-size: 60px;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: rgb(66, 0, 0);
+    justify-self: center;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/*nav bar*/
+.navbar ul {
+    background-color: rgb(158, 158, 158);
+    list-style-type: none;
+    grid-area: 1 / 1 / 1 / 13;
+    padding: 10 10;
+}
+
+.navbar li {
+    padding: 10px 20px;
+    font-size: larger;
+    background-color: rgb(158, 158, 158);
+    display: inline-flex;
+    flex: left;
+}
+
+.navbar {
+    display: block;
+    justify-items: center;
+    grid-area: 1 / 1 / 1 / 13;
+    background-color: rgb(158, 158, 158);
+}
+
+header {
+    width: 100%;
+    grid-area: 1 / 1 / 1 / 13;
+}
+
+/*tables*/
+table {
+    display: block;
+    border: solid 1px black;
+    height: 250px;
+    width:max-content;
+    overflow-y: scroll;
+    padding: 10px;
+    padding-top: 0px;
+    margin: 50px;
+}
+
+tr:nth-child(even) {
+    background-color: floralwhite;
+}
+
+tr:nth-child(odd) {
+    background-color: grey;
+}
+
+th {
+    background-color: goldenrod;
+}
+
+table td {
+    height: 25px;
+}
+table thead {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: rgb(145, 145, 145);
+}
+.yes {
+    background-color: rgb(3, 87, 3);
+}
+.no {
+    background-color: rgb(124, 4, 4);
+}
+/*header*/
+header {
+    display: inline-block;
+    grid-area: 1 / 1 / 1 / 13;
+    justify-content: center;
+}
+
+/*grids and placements*/
+body {
+    background-color: rgb(177, 177, 177);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 10% repeat(5 1fr);
+    justify-items: center;
+}
+
+.main-page {
+    grid-area: 1 / 1 / 1 / 12;
+}
+
+.Core_Sets {
+    grid-area: 2 / 2 / 2 / 12;
+    width: auto;
+}
+
+.Expansions {
+    grid-area: 3 / 2 / 3 / 12;
+}
+
+th {
+    width: 75px;
+}
+
+.setName {
+    width: 220px;
+}
+
+td img {
+    height: 15px;
+    padding: 0px 6px 0px 0px;
+}
+
+/* Phyrexian page items */
+
+.what-is {
+    grid-area: 2 / 2 / 2 / 12;
+    display: grid;
+    justify-items: center;
+}
+
+p.Phyrexia {
+    grid-area: 2 / 1 / 2 / 12;
+}
+
+.what-is h2{
+    justify-self: center;
+}
+
+/*Elesh Norn Judge Promo*/
+.Elesh {
+    grid-area: 3 / 2 / 3 / 12;
+    grid-template-columns: 25% 75%;
+    align-items: center;
+}
+
+.Elesh img {
+    width: 200px;
+    margin: 10px;
+    float: left;
+}
+
+/*Secret Lair*/
+
+.SecretLair {
+    grid-area: 4 / 2 / 4 / 12;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 2;
+    float: left;
+    display: grid;
+    justify-content: space-between;
+}
+
+.SecretLair p {
+    grid-area: 1 / 1 / 1 / 6;
+    justify-self: center;
+    align-self: center;
+}
+
+.SecretLair img {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Vorinclex*/
+.Vorinclex {
+    grid-area: 5 / 2 / 5 / 12;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+}
+
+.Vorinclex img {
+    width: 200px;
+    margin: 10px;
+    float: right;
+}
+
+/*Swamp*/
+
+.Swamp {
+    grid-area: 6 / 2 / 6 / 12;
+}
+
+/*Art*/
+.Art {
+    grid-area: 7 / 2 / 7 / 12;
+    justify-items: center;
+    align-items: center;
+}
+
+#img6 {
+    float: left;
+}
+
+#img7 {
+    float: left;
+}
+
+#img8 {
+    float: right;
+}
+
+/*promo cards*/
+.alt-lang {
+    grid-area: 2 / 2 / 2 / 12;
+    display: grid;
+}
+
+.languages {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/*images*/
+
+.card-img {
+    width: 200px;
+    margin: 10px;
+}
+
+/* Experiment with background image */
+
+body.learn{
+    display: grid;
+    grid-template-columns: 10% repeat(5, 1fr) 10%;
+    background-image: url(https://media.magic.wizards.com/images/featured/EN_PlaneswalkerFormat_Header.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: hsla(0, 0%, 70%, 90%);
+    grid-area: 2 / 2 / 2 / 7;
+    width: 100%;
+    align-items: center;
+}
+
+p.container {
+    align-self: center;
+}
