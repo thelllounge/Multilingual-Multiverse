@@ -1,9 +1,37 @@
-function showHideEnglish() {
-    var en = document.getElementsByClassName('en')
-    var english = document.getElementById('english')
-    if(english.checked == true){
-        en.style.display = "block";
-    }else{
-        en.style.display = "none";
-    }
-}
+ $(document).ready(function() {
+
+    $('#english').on('click', function() {
+        $(".en").toggleClass('hidden');
+    });
+    
+    $('#french').on('click', function() {
+        $(".fr").toggleClass('hidden');
+    });
+
+    $('#spanish').on('click', function() {
+        $(".sp").toggleClass('hidden');
+    });
+
+    $('#italian').on('click', function() {
+        $(".it").toggleClass('hidden');
+    });
+
+    $('#portugeuse').on('click', function() {
+        $(".po").toggleClass('hidden');
+    });
+
+    $('#german').on('click', function() {
+        $(".ge").toggleClass('hidden');
+    });
+
+    $('#japanese').on('click', function() {
+        $(".ja").toggleClass('hidden');
+    });
+
+    $('#chineseSimp').on('click', function() {
+        $(".ch").toggleClass('hidden');
+    });
+ 
+        
+
+});
