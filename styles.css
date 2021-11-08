@@ -2,13 +2,16 @@
 h1 {
     font-size: 60px;
     font-family: 'Gloria Hallelujah', cursive;
-    color: rgb(66, 0, 0);
     justify-self: center;
     text-align: center;
 }
 
 h2 {
     font-family: 'Gloria Hallelujah', cursive;
+}
+
+h1.Phyrexia, h2.Phyrexia {
+    color: rgb(95, 19, 19);
 }
 
 p {
@@ -40,10 +43,6 @@ p {
     background-color: rgb(158, 158, 158);
 }
 
-header {
-    width: 100%;
-    grid-area: 1 / 1 / 1 / 13;
-}
 
 /*tables*/
 table {
@@ -65,10 +64,6 @@ tr:nth-child(odd) {
     background-color: grey;
 }
 
-th {
-    background-color: goldenrod;
-}
-
 table td {
     height: 25px;
 }
@@ -84,11 +79,21 @@ table thead {
 .no {
     background-color: rgb(124, 4, 4);
 }
+
+th {
+    width: 75px;
+}
+
 /*header*/
 header {
     display: inline-block;
     grid-area: 1 / 1 / 1 / 13;
     justify-content: center;
+}
+
+header {
+    width: 100%;
+    grid-area: 1 / 1 / 1 / 13;
 }
 
 /*grids and placements*/
@@ -100,9 +105,13 @@ body {
     justify-items: center;
 }
 
+/* Main page/index */
+
 .main-page {
     grid-area: 1 / 1 / 1 / 12;
 }
+
+/* Language Table page */
 
 .Core_Sets {
     grid-area: 2 / 2 / 2 / 12;
@@ -111,10 +120,6 @@ body {
 
 .Expansions {
     grid-area: 3 / 2 / 3 / 12;
-}
-
-th {
-    width: 75px;
 }
 
 .setName {
@@ -142,100 +147,83 @@ p.Phyrexia {
     justify-self: center;
 }
 
-/*Elesh Norn Judge Promo*/
-.Elesh {
-    grid-area: 3 / 2 / 3 / 12;
-    grid-template-columns: 25% 75%;
-    align-items: center;
-}
+    /*Elesh Norn Judge Promo*/
+    .Elesh {
+        grid-area: 3 / 2 / 3 / 12;
+        grid-template-columns: 25% 75%;
+        align-items: center;
+    }
 
-.Elesh img {
-    width: 200px;
-    margin: 10px;
-    float: left;
-}
+    /*Secret Lair*/
 
-/*Secret Lair*/
+    .SecretLair {
+        grid-area: 4 / 2 / 4 / 12;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 2;
+        float: left;
+        display: grid;
+        justify-content: space-between;
+    }
 
-.SecretLair {
-    grid-area: 4 / 2 / 4 / 12;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 2;
-    float: left;
-    display: grid;
-    justify-content: space-between;
-}
+    .SecretLair p {
+        grid-area: 1 / 1 / 1 / 6;
+        justify-self: center;
+        align-self: center;
+    }
 
-.SecretLair p {
-    grid-area: 1 / 1 / 1 / 6;
-    justify-self: center;
-    align-self: center;
-}
+    .SecretLair img {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-.SecretLair img {
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-}
+    /*Vorinclex*/
+    .Vorinclex {
+        grid-area: 5 / 2 / 5 / 12;
+        grid-template-columns: 3fr 1fr;
+        align-items: center;
+    }
 
-/*Vorinclex*/
-.Vorinclex {
-    grid-area: 5 / 2 / 5 / 12;
-    grid-template-columns: 3fr 1fr;
-    align-items: center;
-}
+    /*Swamp*/
 
-.Vorinclex img {
-    width: 200px;
-    margin: 10px;
-    float: right;
-}
+    .Swamp {
+        grid-area: 6 / 2 / 6 / 12;
+    }
 
-/*Swamp*/
+    /*Art*/
+    .Art {
+        grid-area: 7 / 2 / 7 / 12;
+        justify-items: center;
+        align-items: center;
+    }
 
-.Swamp {
-    grid-area: 6 / 2 / 6 / 12;
-}
+    /*promo cards*/
+    .alt-lang {
+        grid-area: 2 / 2 / 2 / 12;
+        display: grid;
+    }
 
-/*Art*/
-.Art {
-    grid-area: 7 / 2 / 7 / 12;
-    justify-items: center;
-    align-items: center;
-}
-
-#img6 {
-    float: left;
-}
-
-#img7 {
-    float: left;
-}
-
-#img8 {
-    float: right;
-}
-
-/*promo cards*/
-.alt-lang {
-    grid-area: 2 / 2 / 2 / 12;
-    display: grid;
-}
-
-.languages {
-    display: flex;
-    justify-content: space-evenly;
-}
+    .languages {
+        display: flex;
+        justify-content: space-evenly;
+    }
 
 
-/*images*/
+    /*images*/
 
-.card-img {
-    width: 200px;
-    margin: 10px;
-}
+    .card-img {
+        width: 200px;
+        margin: 10px;
+    }
 
-/* Experiment with background image */
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: right;
+    }
+
+/* Learn with MtG page */
 
 body.learn{
     display: grid;
@@ -257,11 +245,11 @@ p.container {
     align-self: center;
 }
 
-/*Language Checkboxes*/
-.hidden {
-    display: none;
-}
+    /*Language Checkboxes*/
+    .hidden {
+        display: none;
+    }
 
-label {
-    margin-left: 20px;
-}
+    label {
+        margin-left: 20px;
+    }
