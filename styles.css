@@ -158,35 +158,23 @@ p.Phyrexia {
 
     .SecretLair {
         grid-area: 4 / 2 / 4 / 12;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: 2;
-        float: left;
-        display: grid;
-        justify-content: space-between;
+        display: flex-box;
     }
 
-    .SecretLair p {
-        grid-area: 1 / 1 / 1 / 6;
-        justify-self: center;
-        align-self: center;
-    }
-
-    .SecretLair img {
-        margin-left: auto;
-        margin-right: auto;
+    .secretImg{
+        justify-self: auto;
     }
 
     /*Vorinclex*/
     .Vorinclex {
         grid-area: 5 / 2 / 5 / 12;
-        grid-template-columns: 3fr 1fr;
-        align-items: center;
     }
 
     /*Swamp*/
 
     .Swamp {
         grid-area: 6 / 2 / 6 / 12;
+        display: flex;
     }
 
     /*Art*/
