@@ -1,0 +1,172 @@
+[
+  {
+    "English": "White",
+    "French": "Blanc",
+    "Spanish": "blanco",
+    "Italian": "bianco",
+    "Portugeuse": "branco",
+    "German": "wieß",
+    "Japanese": "白い",
+    "SimplifiedChinese": "白"
+  },
+  {
+    "English": "Blue",
+    "French": "Bleu",
+    "Spanish": "azul",
+    "Italian": "blu",
+    "Portugeuse": "azul",
+    "German": "blau",
+    "Japanese": "青い",
+    "SimplifiedChinese": "蓝"
+  },
+  {
+    "English": "Black",
+    "French": "Noir",
+    "Spanish": "negro",
+    "Italian": "nero",
+    "Portugeuse": "preto",
+    "German": "schwarz",
+    "Japanese": "黒い",
+    "SimplifiedChinese": "黑"
+  },
+  {
+    "English": "Red",
+    "French": "Rouge",
+    "Spanish": "rojo",
+    "Italian": "rosso",
+    "Portugeuse": "vermelho",
+    "German": "rot",
+    "Japanese": "赤い",
+    "SimplifiedChinese": "红"
+  },
+  {
+    "English": "Green",
+    "French": "Vert",
+    "Spanish": "verde",
+    "Italian": "verde",
+    "Portugeuse": "verde",
+    "German": "grün",
+    "Japanese": "緑",
+    "SimplifiedChinese": "绿"
+  },
+  {
+    "English": "Plains",
+    "French": "la plaine",
+    "Spanish": "llanura",
+    "Italian": "pianura",
+    "Portugeuse": "planície",
+    "German": "die Ebene",
+    "Japanese": "平地",
+    "SimplifiedChinese": "平原"
+  },
+  {
+    "English": "Island",
+    "French": "l'île (f)",
+    "Spanish": "isla",
+    "Italian": "isola",
+    "Portugeuse": "ilha",
+    "German": "die Insel",
+    "Japanese": "島",
+    "SimplifiedChinese": "海岛"
+  },
+  {
+    "English": "Swamp",
+    "French": "le marais",
+    "Spanish": "pantano",
+    "Italian": "palude",
+    "Portugeuse": "pântano",
+    "German": "der Sumpf",
+    "Japanese": "沼",
+    "SimplifiedChinese": "沼泽"
+  },
+  {
+    "English": "Mountain",
+    "French": "la montagne",
+    "Spanish": "montaña",
+    "Italian": "montagna",
+    "Portugeuse": "montanha",
+    "German": "das Gerbirge",
+    "Japanese": "山",
+    "SimplifiedChinese": "山脉"
+  },
+  {
+    "English": "Forest",
+    "French": "la fôret",
+    "Spanish": "bosque",
+    "Italian": "foresta",
+    "Portugeuse": "floresta",
+    "German": "der Wald",
+    "Japanese": "森",
+    "SimplifiedChinese": "树林"
+  },
+  {
+    "English": "Battlefield",
+    "French": "le champ de bataille",
+    "Spanish": "campo de batalla",
+    "Italian": "campo di battaglia",
+    "Portugeuse": "campo de batalha",
+    "German": "Spiel",
+    "Japanese": "戦場",
+    "SimplifiedChinese": "战场"
+  },
+  {
+    "English": "Graveyard",
+    "French": "le cimetière",
+    "Spanish": "cementerio",
+    "Italian": "cimitero",
+    "Portugeuse": "cemitério",
+    "German": "Friedhof",
+    "Japanese": "墓地",
+    "SimplifiedChinese": "坟墓场"
+  },
+  {
+    "English": "Hand",
+    "French": "la main",
+    "Spanish": "mano",
+    "Italian": "mano",
+    "Portugeuse": "mão",
+    "German": "Hand",
+    "Japanese": "手札",
+    "SimplifiedChinese": "手牌"
+  },
+  {
+    "English": "Library",
+    "French": "la bibliothèque",
+    "Spanish": "biblioteca",
+    "Italian": "grimorio",
+    "Portugeuse": "grimório",
+    "German": "Bibliothek",
+    "Japanese": "ライブラリー",
+    "SimplifiedChinese": "牌库"
+  },
+  {
+    "English": "(in) exile",
+    "French": "(en) exil",
+    "Spanish": "(en el) exilio",
+    "Italian": "(in) esilio",
+    "Portugeuse": "(no) exílio",
+    "German": "(im) Exil",
+    "Japanese": "追放領域(に)",
+    "SimplifiedChinese": "放逐区(中)"
+  },
+  {
+    "English": "command zone",
+    "French": "la zone de commandement",
+    "Spanish": "la zona de mando",
+    "Italian": "zona di comando",
+    "Portugeuse": "zona de comando",
+    "German": "der Kommandozone",
+    "Japanese": "統率領域",
+    "SimplifiedChinese": "统帅区"
+  },
+  {
+    "English": "Stack",
+    "French": "la pile",
+    "Spanish": "la pila",
+    "Italian": "la pila",
+    "Portugeuse": "pilha",
+    "German": "der Stapel",
+    "Japanese": "スタック",
+    "SimplifiedChinese": "堆叠"
+  }
+]
