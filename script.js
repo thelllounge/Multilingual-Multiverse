@@ -1,5 +1,4 @@
- 
- 
+ //toggles languages
  $(document).ready(function() {
 
     $('#english').on('click', function() {
@@ -42,17 +41,38 @@ fetch('MtGTrial.json')
         .then(data => {
      for (var i in data){
         var row =  `<tr>
-                        <td>${data[i].English}</td>
-                        <td>${data[i].French}</td>
-                        <td>${data[i].Spanish}</td>
-                        <td>${data[i].Italian}</td>
-                        <td>${data[i].Portugeuse}</td>
-                        <td>${data[i].German}</td>
-                        <td>${data[i].Japanese}</td>
-                        <td>${data[i].SimplifiedChinese}</td>
+                        <td class = "en">${data[i].English}</td>
+                        <td class = "fr">${data[i].French}</td>
+                        <td class = "sp">${data[i].Spanish}</td>
+                        <td class = "it">${data[i].Italian}</td>
+                        <td class = "po">${data[i].Portugeuse}</td>
+                        <td class = "ge">${data[i].German}</td>
+                        <td class = "ja">${data[i].Japanese}</td>
+                        <td class = "ch">${data[i].SimplifiedChinese}</td>
                     </tr>`
              var table = $('#vocabBody')
              table.append(row);
     }
         });
+
+//Makes navbar sticky
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
 });

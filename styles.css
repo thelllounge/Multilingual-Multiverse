@@ -48,6 +48,14 @@ p {
 }
 
 
+    /*Trying to make it sticky*/
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 /*tables*/
 table {
     display: block;
@@ -93,6 +101,7 @@ header {
     display: inline-block;
     grid-area: 1 / 1 / 1 / 13;
     justify-content: center;
+    background-color: rgb(158, 158, 158);
 }
 
 header {
