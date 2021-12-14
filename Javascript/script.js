@@ -59,11 +59,6 @@ fetch('/Javascript/MtGTrial.json')
         });
 
 
-fetch('MtGTrial.json')
-        .then(Response => Response.json())
-        .then(data => {
-          console.log(data);
-        });
 //Vocabulary game?
 
 
