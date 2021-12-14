@@ -1,4 +1,5 @@
  //toggles languages
+ //make this its own file later
  $(document).ready(function() {
 
     $('#english').on('click', function() {
@@ -36,7 +37,7 @@
 
 // Making a table   
 
-fetch('MtGTrial.json')
+fetch('/Javascript/MtGTrial.json')
         .then(Response => Response.json())
         .then(data => {
      for (var i in data){
