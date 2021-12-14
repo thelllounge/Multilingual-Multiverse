@@ -34,6 +34,8 @@
         $(".ch").toggleClass('hidden');
     });
 
+// possible object to use?
+var vocabData
 
 // Making a table   
 
@@ -55,6 +57,18 @@ fetch('/Javascript/MtGTrial.json')
              table.append(row);
     }
         });
+
+
+fetch('MtGTrial.json')
+        .then(Response => Response.json())
+        .then(data => {
+          console.log(data);
+        });
+//Vocabulary game?
+
+
+
+
 
 //Makes navbar sticky
 
